@@ -1,4 +1,8 @@
 .env
 .xml
 *_gemini.xml
+*_gemini.txt
 *_raw.xml
+*_raw.txt
+*.csv
+

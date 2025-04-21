@@ -1,1 +1,10 @@
 GEMINI_API_KEY=12345
+
+# Packages needed: dotenv, google.genai, google,generativeai
+
+# Example commands:
+# Scan only ports 80, 443 on host 192.168.0.5, keep report
+# python nmap_ai.py 192.168.0.5 --keep-report --nmap-options "-p 80,443"
+
+# Scan top 20 ports on the subnet, excluding the gateway
+# python nmap_ai.py 192.168.0.0/24 -o subnet_top20 --nmap-options "--top-ports 20 --exclude 192.168.0.1"
